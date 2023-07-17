@@ -56,7 +56,6 @@ void display(void)
 
     //window2
     glBegin(GL_QUADS);
-    // glColor3f(1, 0.773, 0.141);
     glVertex2f(0.4f, -0.1f);
     glVertex2f(0.4f, 0.1f);
     glVertex2f(0.6f, 0.1f);
@@ -66,7 +65,6 @@ void display(void)
 
     //window3
     glBegin(GL_QUADS);
-    // glColor3f(1, 0.714, 0);
     glVertex2f(0.1f, -0.4f);
     glVertex2f(0.1f, -0.2f);
     glVertex2f(0.3f, -0.2f);
@@ -93,7 +91,6 @@ void display(void)
 
     //roofRight
     glBegin(GL_QUADS);
-    glColor3f(0.918, 0.031, 0.153);
     glVertex2f(0.85f, 0.15f);
     glVertex2f(0.9f, 0.215f);
     glVertex2f(0.0f, 0.752f);
@@ -116,7 +113,6 @@ void display(void)
 
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(-0.75f, -0.7f);
     glVertex2f(-0.6f, -0.57f);
     glVertex2f(-0.45f, -0.7f);
@@ -124,21 +120,18 @@ void display(void)
 
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(-0.60f, -0.7f);
     glVertex2f(-0.45, -0.57f);
     glVertex2f(-0.30f, -0.7f);
     glEnd();
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(-0.45f, -0.7f);
     glVertex2f(-0.30, -0.57f);
     glVertex2f(-0.15f, -0.7f);
     glEnd();
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(-0.30f, -0.7f);
     glVertex2f(-0.15, -0.57f);
     glVertex2f(-0.0f, -0.7f);
@@ -150,7 +143,6 @@ void display(void)
 
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(0.90f, -0.7f);
     glVertex2f(0.75f, -0.57f);
     glVertex2f(0.60f, -0.7f);
@@ -158,7 +150,6 @@ void display(void)
 
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(0.75f, -0.7f);
     glVertex2f(0.6f, -0.57f);
     glVertex2f(0.45f, -0.7f);
@@ -166,21 +157,18 @@ void display(void)
 
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(0.60f, -0.7f);
     glVertex2f(0.45, -0.57f);
     glVertex2f(0.30f, -0.7f);
     glEnd();
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(0.45f, -0.7f);
     glVertex2f(0.30, -0.57f);
     glVertex2f(0.15f, -0.7f);
     glEnd();
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(0.30f, -0.7f);
     glVertex2f(0.15, -0.57f);
     glVertex2f(0.0f, -0.7f);
@@ -191,12 +179,10 @@ void display(void)
     //bottom center grass
 
     glBegin(GL_TRIANGLES);
-    glColor3f(0.553, 0.776, 0.243);
     glVertex2f(-0.15f, -0.7f);
     glVertex2f(0.0, -0.57f);
     glVertex2f(0.15f, -0.7f);
     glEnd();
-
 
 
     glFlush();
