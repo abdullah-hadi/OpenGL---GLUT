@@ -195,7 +195,7 @@ int main(int argc, char** argv)
     glutInitDisplayMode(GLUT_SINGLE);
     glutInitWindowSize(709, 784);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("Home_201-115-075");
+    glutCreateWindow("GLUT_Home");
     glutDisplayFunc(display);
     glutMainLoop();
     return 0;
