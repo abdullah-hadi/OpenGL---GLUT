@@ -2,7 +2,6 @@
 #include<GL/glut.h>
 #include<math.h>
 
-
 void display(void)
 {
 
